@@ -1,7 +1,8 @@
 ---
 layout: post
-title:  피지컬 컴퓨팅을 이용한 스마트팜 프로젝트
-date:   2019-08-25 12:10:49 +0900
+title:  "피지컬 컴퓨팅을 이용한 스마트팜 프로젝트"
+subtitle: "망고 농장과 커피 농장의 현지 데이터를 수집하고, python을 이용해 데이터 분석" 
+date:   2019-08-25 12:10:49 +0900"
 categories: ['smartfarm', 'python']
 ---
 

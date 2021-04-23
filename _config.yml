@@ -1,38 +1,22 @@
+title:  Mi-Gyeong's Profile
+email:  rmfosem613@gmail.com
+description:  "현재 재주대학교 컴퓨터공학과에 재학중입니다. 다양한 분야의 응용시스템들을 다루며 경험을 쌓고 있습니다. 최근 backend 분야에 관심을 갖고 학습하고 있습니다."
+author:             Mi-Gyeong
+baseurl:            "/profile-blog"
+url:                "https://rmfosem613.github.io"
 
-title: Migyeong's Profile
-email: rmfosem613@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  현재 제주대학교 컴퓨터공학과에 재학중입니다.
-  다양한 분야의 응용시스템들을 다루며 경험을 쌓고 있습니다.
-  백엔드 분야에 관심을 갖고 공부하는 중입니다.
-baseurl: "/profile-blog" # the subpath of your site, e.g. /blog
-url: "https://rmfosem613.github.in" # the base hostname & protocol for your site, e.g. http://example.com
+# Social Profiles
+github_username:    rmfosem613
 
-#Social Profiles
-twitter_username:
-github_username:  rmfosem613
+# Add your google-analytics ID here to activate google analytics
+
+theme: jekyll-theme-clean-blog
 
 # Build settings
-theme: jekyll-theme-clean-blog
+markdown:           kramdown
+paginate:           5
+paginate_path:      "/posts/page:num/"
 plugins:
   - jekyll-feed
-
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+  - jekyll-paginate
+  - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
