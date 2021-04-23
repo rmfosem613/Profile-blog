@@ -2,7 +2,7 @@
 layout: post
 title:  피지컬 컴퓨팅을 이용한 스마트팜 프로젝트
 date:   2019-08-25 12:10:49 +0900
-categories: ['smartfarm']
+categories: ['smartfarm', 'python']
 ---
 
 ARDUINO 센서들을 이용해 베트남에 방문해 현지의 망고농장과 커피농장의 환경 데이터를 수집하고 비교하는 프로젝트를 진행하였습니다.
